@@ -2,6 +2,7 @@ import javax.swing.JOptionPane;
 
 public class Task {
 
+
     public static void main(String[] args) {
         int numTasks = Integer.parseInt(JOptionPane.showInputDialog("Enter the number of tasks:"));
         int totalHours = 0;
