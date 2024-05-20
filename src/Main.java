@@ -59,5 +59,7 @@ public class Main {
         }while(!user.isLoginIn);
 
         user.returnLoginStatus(user.isLoginIn, user.firstName, user.lastName);
+
+        JOptionPane.showMessageDialog(null,"Welcome to EasyKanban");
     }
 }
