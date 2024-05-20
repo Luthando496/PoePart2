@@ -29,6 +29,7 @@ public class Task {
             JOptionPane.showMessageDialog(null, taskDetails);
         }
 
+
         JOptionPane.showMessageDialog(null, "Total combined hours for all tasks: " + returnTotalHours(totalHours));
     }
 
